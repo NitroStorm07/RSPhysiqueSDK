@@ -581,7 +581,9 @@ void USDKFunctionCalls::PackageAllAssets(const FString& ModName, int Platform)
     FString UnrealPakPath = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::EngineDir(), TEXT("Binaries/Win64/UnrealPak.exe")));
     FString ProjectName = FApp::GetProjectName();
     FString ProjectFilePath = FPaths::ConvertRelativePathToFull(FPaths::GetProjectFilePath());
-    FString CookedDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Cooked"), PlatformFlavor, ProjectName, TEXT("Content"), ModName));
+
+    FString CookedDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Cooked"), PlatformFlavor, ProjectName, TEXT("Content")));
+
     FString PakOutputDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(GetModPakFolder(), PlatformFolder, ModName));
     FString PakFileName = FPaths::Combine(PakOutputDir, ModName + TEXT(".pak"));
     FString ResponseFileName = FPaths::Combine(GetModIntermidateFolder(), TEXT("ResponseFile.txt"));
