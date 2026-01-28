@@ -634,6 +634,16 @@ void USDKFunctionCalls::PackageAllAssets(const FString& ModName, int Platform)
         ResponseFileContent.Appendf(TEXT("\"%s\" \"%s\" -compress\n"), *FilePath, *(TEXT("../../../") + ProjectName + TEXT("/Content/") + RelativePath));
     }
 
+    FString PhysiqueCookedDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Cooked"), PlatformFlavor, ProjectName, "Content", "Core", "Realitas", "Physiques"));
+    FilesToPack.Empty();
+    PlatformFile.FindFilesRecursively(FilesToPack, *PhysiqueCookedDir, NULL);
+    for (const FString& FilePath : FilesToPack)
+    {
+        FString RelativePath = FilePath;
+        FPaths::MakePathRelativeTo(RelativePath, *PhysiqueCookedDir);
+        ResponseFileContent.Appendf(TEXT("\"%s\" \"%s\" -compress\n"), *FilePath, *(TEXT("../../../") + ProjectName + TEXT("/Content/Core/Realitas/Physiques/") + RelativePath));
+    }
+
     FFileHelper::SaveStringToFile(ResponseFileContent.ToString(), *ResponseFileName);
 
     FString PakCommands = FString::Printf(TEXT("\"%s\" -create=\"%s\""), *PakFileName, *ResponseFileName);
