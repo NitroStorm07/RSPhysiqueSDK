@@ -582,7 +582,7 @@ void USDKFunctionCalls::PackageAllAssets(const FString& ModName, int Platform)
     FString ProjectName = FApp::GetProjectName();
     FString ProjectFilePath = FPaths::ConvertRelativePathToFull(FPaths::GetProjectFilePath());
 
-    FString CookedDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Cooked"), PlatformFlavor, ProjectName, TEXT("Content")));
+    FString CookedDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Cooked"), PlatformFlavor, ProjectName, TEXT("Content"), ModName));
 
     FString PakOutputDir = FPaths::ConvertRelativePathToFull(FPaths::Combine(GetModPakFolder(), PlatformFolder, ModName));
     FString PakFileName = FPaths::Combine(PakOutputDir, ModName + TEXT(".pak"));
