@@ -1,0 +1,31 @@
+// Copyright 2026 CMVR Game Studios LLC. All rights reserved.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "SpawnableData.h"
+#include "Spawnable.generated.h"
+
+UCLASS()
+class DOWNSHOT_SDK_EDITOR_API ASpawnable : public AActor
+{
+    GENERATED_BODY()
+
+public:
+    // Sets default values for this actor's properties
+    ASpawnable();
+
+protected:
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
+
+    UFUNCTION(BlueprintCallable)
+    int GetClosestMatch(FString Name);
+
+public:
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
+    TArray<FSpawnableData> Items = { 
