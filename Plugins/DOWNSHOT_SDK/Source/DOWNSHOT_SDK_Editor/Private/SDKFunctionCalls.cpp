@@ -641,7 +641,7 @@ void USDKFunctionCalls::PackageAllAssets(const FString& ModName, int Platform)
     {
         FString RelativePath = FilePath;
         FPaths::MakePathRelativeTo(RelativePath, *PhysiqueCookedDir);
-        ResponseFileContent.Appendf(TEXT("\"%s\" \"%s\" -compress\n"), *FilePath, *(TEXT("../../../") + ProjectName + TEXT("/Content/Core/Realitas/Physiques/") + RelativePath));
+        ResponseFileContent.Appendf(TEXT("\"%s\" \"%s\" -compress\n"), *FilePath, *(TEXT("../../../") + ProjectName + TEXT("/Content/Core/Realitas/") + RelativePath));
     }
 
     FFileHelper::SaveStringToFile(ResponseFileContent.ToString(), *ResponseFileName);
