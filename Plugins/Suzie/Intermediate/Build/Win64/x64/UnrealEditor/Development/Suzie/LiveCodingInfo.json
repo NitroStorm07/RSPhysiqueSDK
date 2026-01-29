@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Suzie.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"SuzieDecompressionHelper.cpp.obj",
+			"SuziePlugin.cpp.obj"
+		]
+	}
+}

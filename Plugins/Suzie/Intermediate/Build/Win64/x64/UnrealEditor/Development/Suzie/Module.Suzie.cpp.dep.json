@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\suzie\\module.suzie.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\intermediate\\build\\win64\\x64\\downshotvreditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\suzie\\definitions.suzie.h",
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\suzie\\permoduleinline.gen.cpp",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\source\\suzie\\private\\suziedecompressionhelper.cpp",
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\source\\suzie\\private\\suziedecompressionhelper.h",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\thirdparty\\zlib\\1.3\\include\\zlib.h",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\thirdparty\\zlib\\1.3\\include\\zconf.h",
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\source\\suzie\\private\\suzieplugin.cpp",
+            "c:\\users\\potat\\documents\\github\\downshot-sdk-v2\\plugins\\suzie\\source\\suzie\\public\\suzieplugin.h",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\uobjectallocator.h",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\memory\\linearallocator.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
