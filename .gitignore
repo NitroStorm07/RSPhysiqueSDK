@@ -11,8 +11,7 @@
 
 # Compiled Dynamic libraries
 
-# always get suzie binaries
-!/Plugins/Suzie/*
+
 # Fortran module files
 
 
@@ -36,8 +35,7 @@
 *.VC.opendb
 
 # Precompiled Assets
-SourceArt/**/*.png
-SourceArt/**/*.tga
+
 
 # Binary Files
 
@@ -46,6 +44,7 @@ SourceArt/**/*.tga
 Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Plugins/**/Binaries/*
 !Build/*/
 Build/*/**
 !Build/*/PakBlacklist*.txt
