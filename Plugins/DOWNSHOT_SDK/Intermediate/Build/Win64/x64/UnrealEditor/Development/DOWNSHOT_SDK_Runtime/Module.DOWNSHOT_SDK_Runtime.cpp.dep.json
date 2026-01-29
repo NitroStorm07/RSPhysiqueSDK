@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\downshot_sdk_runtime\\module.downshot_sdk_runtime.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\intermediate\\build\\win64\\x64\\downshotvreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\downshot_sdk_runtime\\definitions.downshot_sdk_runtime.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_runtime\\uht\\downshot_sdk_runtime.init.gen.cpp",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_runtime\\uht\\spawnable.gen.cpp",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\source\\downshot_sdk_runtime\\public\\spawnable.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\source\\downshot_sdk_runtime\\public\\spawnabledata.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_runtime\\uht\\spawnabledata.generated.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_runtime\\uht\\spawnable.generated.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_runtime\\uht\\spawnabledata.gen.cpp",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\downshot_sdk_runtime\\permoduleinline.gen.cpp",
+            "d:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\source\\downshot_sdk_runtime\\private\\downshot_sdk_runtime.cpp",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\source\\downshot_sdk_runtime\\public\\downshot_sdk_runtime.h",
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\source\\downshot_sdk_runtime\\private\\spawnable.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

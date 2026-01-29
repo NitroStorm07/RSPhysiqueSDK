@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DOWNSHOT_SDK_Runtime.cpp.obj": [
+			"DOWNSHOT_SDK_Runtime.init.gen.cpp.obj",
+			"Spawnable.gen.cpp.obj",
+			"SpawnableData.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"DOWNSHOT_SDK_Runtime.cpp.obj",
+			"Spawnable.cpp.obj"
+		]
+	}
+}

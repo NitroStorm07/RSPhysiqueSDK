@@ -1,0 +1,29 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeDOWNSHOT_SDK_Runtime_init() {}
+	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_DOWNSHOT_SDK_Runtime;
+	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_DOWNSHOT_SDK_Runtime()
+	{
+		if (!Z_Registration_Info_UPackage__Script_DOWNSHOT_SDK_Runtime.OuterSingleton)
+		{
+			static const UECodeGen_Private::FPackageParams PackageParams = {
+				"/Script/DOWNSHOT_SDK_Runtime",
+				nullptr,
+				0,
+				PKG_CompiledIn | 0x00000000,
+				0xDEECF740,
+				0x47058364,
+				METADATA_PARAMS(0, nullptr)
+			};
+			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_DOWNSHOT_SDK_Runtime.OuterSingleton, PackageParams);
+		}
+		return Z_Registration_Info_UPackage__Script_DOWNSHOT_SDK_Runtime.OuterSingleton;
+	}
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_DOWNSHOT_SDK_Runtime(Z_Construct_UPackage__Script_DOWNSHOT_SDK_Runtime, TEXT("/Script/DOWNSHOT_SDK_Runtime"), Z_Registration_Info_UPackage__Script_DOWNSHOT_SDK_Runtime, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xDEECF740, 0x47058364));
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

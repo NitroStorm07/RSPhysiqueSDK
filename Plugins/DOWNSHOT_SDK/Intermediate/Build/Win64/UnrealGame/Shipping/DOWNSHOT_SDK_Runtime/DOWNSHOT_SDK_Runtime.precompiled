@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\DOWNSHOT_SDK_Runtime\\Module.DOWNSHOT_SDK_Runtime.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\DOWNSHOT_SDK_Runtime\\DOWNSHOT_SDK_Runtime.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\DOWNSHOT_SDK_Runtime\\Spawnable.cpp.obj"
+	]
+}

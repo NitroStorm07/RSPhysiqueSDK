@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DOWNSHOT_SDK_Editor.cpp.obj": [
+			"DOWNSHOT_SDK_Editor.init.gen.cpp.obj",
+			"SDKFunctionCalls.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"DOWNSHOT_SDK_Editor.cpp.obj",
+			"SDKIconStyle.cpp.obj",
+			"SDKFunctionCalls.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\source\\ueformat\\private\\ueformat.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\ueproj\\lyrastartergame\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ueformat\\definitions.ueformat.h",
+            "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\source\\ueformat\\public\\ueformat.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

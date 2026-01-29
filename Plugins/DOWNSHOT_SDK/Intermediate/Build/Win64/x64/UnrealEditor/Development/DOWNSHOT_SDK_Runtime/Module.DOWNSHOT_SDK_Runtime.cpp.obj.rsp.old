@@ -1,0 +1,52 @@
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/Module.DOWNSHOT_SDK_Runtime.cpp"
+@"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/DOWNSHOT_SDK_Runtime.Shared.rsp"
+/FI"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Intermediate/Build/Win64/x64/DownshotVREditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/Definitions.DOWNSHOT_SDK_Runtime.h"
+/Yu"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Intermediate/Build/Win64/x64/DownshotVREditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Intermediate/Build/Win64/x64/DownshotVREditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/Module.DOWNSHOT_SDK_Runtime.cpp.obj"
+/experimental:log "C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/Module.DOWNSHOT_SDK_Runtime.cpp.sarif"
+/sourceDependencies "C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Runtime/Module.DOWNSHOT_SDK_Runtime.cpp.dep.json"
+/Zc:inline
+/nologo
+/Oi
+/FC
+/diagnostics:caret
+/c
+/Gw
+/Gy
+/utf-8
+/wd4819
+/DSAL_NO_ATTRIBUTE_DECLARATIONS=1
+/permissive-
+/Zc:strictStrings-
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/Ob2
+/d2ExtendedWarningInfo
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/W4
+/we4456
+/we4458
+/we4459
+/wd4244
+/wd4838
+/TP
+/GR-
+/std:c++20
+/Zc:preprocessor
+/wd5054

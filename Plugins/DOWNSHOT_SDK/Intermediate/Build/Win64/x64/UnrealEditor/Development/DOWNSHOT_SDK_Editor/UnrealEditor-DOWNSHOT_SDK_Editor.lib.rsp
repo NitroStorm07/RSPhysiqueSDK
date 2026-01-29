@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DOWNSHOT_SDK_Editor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Intermediate/Build/Win64/x64/DownshotVREditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/Module.DOWNSHOT_SDK_Editor.cpp.obj"
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/SDKFunctionCalls.cpp.obj"
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/DOWNSHOT_SDK_Editor.init.gen.cpp.obj"
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/SDKFunctionCalls.gen.cpp.obj"
+"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/Default.rc2.res"
+/OUT:"C:/Users/Potat/Documents/Unreal Projects/DSModMenu/Plugins/DOWNSHOT_SDK/Intermediate/Build/Win64/x64/UnrealEditor/Development/DOWNSHOT_SDK_Editor/UnrealEditor-DOWNSHOT_SDK_Editor.lib"

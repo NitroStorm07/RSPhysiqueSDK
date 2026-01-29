@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\source\\ueformat\\thirdparty\\zstd\\common\\threading.c",
+        "ProvidedModule": "",
+        "Includes": [
+            "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ueformat\\definitions.c.h",
+            "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\source\\ueformat\\thirdparty\\zstd\\common\\threading.h",
+            "f:\\ueproj\\lyrastartergame\\plugins\\ueformat\\source\\ueformat\\thirdparty\\zstd\\common\\debug.h"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\unrealeditor\\inc\\downshot_sdk_editor\\uht\\downshot_sdk_editor.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\intermediate\\build\\win64\\x64\\downshotvreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\potat\\documents\\unreal projects\\dsmodmenu\\plugins\\downshot_sdk\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\downshot_sdk_editor\\definitions.downshot_sdk_editor.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
