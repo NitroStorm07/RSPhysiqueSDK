@@ -11,7 +11,8 @@
 
 # Compiled Dynamic libraries
 
-
+# always get suzie binaries
+!/Plugins/Suzie/*
 # Fortran module files
 
 
@@ -65,5 +66,4 @@ Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# always get suzie binaries
-!Plugins/Suzie/Binaries
+
